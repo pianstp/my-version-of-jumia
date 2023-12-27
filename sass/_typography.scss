@@ -1,0 +1,191 @@
+// DESCRIPTION DESIGN
+
+.des__items{
+    background-color: #fff;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    width: 119rem;
+    margin-left: -.5rem;
+    margin-bottom: 1rem;
+     
+}
+
+.flash__selling{
+    max-width:  119.5rem; 
+    padding: 0px .5rem;
+    margin: 0px 8rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+ background-color: #fff;
+margin-bottom: 1rem;
+}
+.des__text{ 
+background-color: #fff;
+    height: 4rem;
+
+}
+
+.des__msg{
+    color: #f68b1e;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    display: block;
+    width: 10rem;
+    font-weight: 400;
+    margin-right: -3rem;
+   
+}
+.des__notify{
+    color: #333;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.des__icon{
+height: 2rem;
+width: 2rem;
+fill: #f68b1e;
+}
+.flash__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+// DESCRIPTION TEXT
+
+.card {
+background-color: #fff;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.05);
+border-radius: 4px;
+width: 100%;
+}
+
+
+.-fs12 {
+font-size: 1.5rem;
+padding-left: 16px;
+padding-right: 16px;
+}
+
+.des116{
+
+    max-width:  119.5rem; 
+    padding: 0px .5rem;
+    margin: 0px 8rem;
+    margin-top: 1.5rem;
+    border-radius: 4px;
+ background-color: #fff;
+margin-bottom: 1rem;
+
+}
+
+.-pvs{
+    padding-bottom: 8px;
+    display: block;
+
+}
+
+.des-link{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 18rem;
+    row-gap: 1rem;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #f1f1f2;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+
+.col4 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 0;
+    padding-right: 0;
+    text-decoration: underline;
+    font-weight: 700;
+    display: inline-block;
+    background-color: transparent;
+
+}
+
+
+
+// CHRISTMAS
+
+.descript{
+    display: flex;
+     column-gap: 2.5rem;
+    // justify-content: space-between;
+
+    max-width:  119.5rem; 
+    padding: 0px .5rem;
+    margin: 0px 8rem;
+    margin-top: 1.5rem;
+    border-radius: 4px;
+ background-color: #fff;
+margin-bottom: 1rem;
+
+}
+
+.des-box-5{
+width: 36.5rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+background-color: orangered;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+
+.christmas__box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: green;
+    margin-top: 1rem;
+    width: 83rem;
+    margin-bottom: 1rem;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.des__box-1{
+     width: 83rem;
+}
+
+.christmas__container{
+    // background-color: #f68b1e;
+    background-color: #fff;
+    width: 20rem;
+
+}
+
+.christmas__img{
+    height: 15rem;
+    width: 18rem;
+}
+
+.christmas__links{
+    background-color: red;
+}
+
+.christmas__card{
+display: flex;
+justify-content: center;
+align-items: center;
+}

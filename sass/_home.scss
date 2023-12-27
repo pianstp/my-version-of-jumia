@@ -1,0 +1,487 @@
+//THE HOME DISPLAY SECTION IMMEDIATELY AFTER THE HEADER SECTION 
+.showcase {
+//   background-image: linear-gradient(to bottom right, #1ef31eed, #1ec91ee7);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 1rem;
+ max-width:  119.5rem; 
+ padding: 0px .5rem;
+ margin: 0px 8rem;
+ margin-top: 1.5rem;
+ border-radius: 5px;
+ 
+
+    &__large-box{
+background-color: #fff;
+width: 30%;
+height: 42.5rem;
+border-radius: 5px;
+ display:flex;
+flex-direction: column;
+row-gap: 1.4rem;
+column-gap: 2.5rem;
+ padding-top: 1rem;
+
+    }
+    .flyout{
+text-decoration: none;
+padding-left: 1rem;
+display: flex;
+column-gap: 5px;
+
+
+
+        &__icon{
+            height: 1.8rem;
+            width: 2.5rem;
+            stroke: #000;
+            // stroke-width: 1px;
+            fill: #fff;
+
+    
+        }
+
+        &__text{
+      color: #000;
+      font-size: 13.5px;
+    //   font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    display: inline-block;
+    
+    //   padding-left: 1.2rem;
+        }
+    }
+
+
+ .showcase__large-box .flyout:hover .flyout__text{
+    color: #f68b1e;
+    cursor: pointer;
+}
+.showcase__large-box .flyout:hover .flyout__icon{
+    stroke: #f68b1e;
+    cursor: pointer;
+}
+
+    &__card{
+// background-color: greenyellow;
+width: 100%;
+height: 75vh;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 1.2rem;
+&__img {
+    width: 100%;
+    height: 42.5rem;
+    border-radius: 5px;
+}
+    }
+
+ &__small-box{
+// background-color: pink;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1.5rem;
+width: 44rem;
+
+   }
+
+}
+
+.showcase__small-box-1{
+
+    &__img{
+        border-radius: 5px;
+        height: 20rem;
+
+    }
+}
+.showcase__small-box-2{
+
+&__img{
+border-radius: 5px;
+height: 20rem;
+}
+
+}
+
+
+// THE CARD SECTION 
+.card__section{
+    max-width:  119.5rem; 
+    padding: 0px .5rem;
+    margin: 0px 8rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+.card__container{
+display: flex;
+gap: 1.5rem;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding-top: 1rem;
+}
+.card__link{
+text-decoration: none;
+border-radius: 5px;
+}
+.card__link:hover{
+ box-shadow: 0 0 12px 0 rgba(0,0,0,.12);
+}
+.card__box{
+
+
+}
+.card__img{
+height: 15rem;
+width: 18rem;
+border-radius: 5px;
+
+}
+.text{
+text-align: center;
+font-size: 1.5rem;
+font-weight: 500;
+color: #555;
+background-color: #fff;
+border-radius: 5px;
+height: 4rem;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: -1rem;
+}
+
+
+// THE SECOND CARD SECTION
+
+.top__selling{
+    max-width:  119.5rem; 
+    padding: 0px .5rem;
+    margin: 0px 8rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+ background-color: #fff;
+margin-bottom: 1rem;
+    &__box{
+
+    }
+
+ 
+}
+
+.top__items{
+background: #fff;
+padding: 1rem;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+
+
+}
+
+.top__text{
+    background-color: #fff;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+        }
+
+    
+.top__notify{
+    font-size: 2rem;
+font-weight: 400;
+color: #000;
+font-family: sans-serif;
+margin-left: 15px;
+padding-top: .5rem; 
+ padding-bottom: .5rem;       
+}
+
+.top__container{
+    display: flex;
+    gap:1rem;
+ }
+
+.item__col{
+border-radius: 5px;
+ background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.item__col:hover{
+ box-shadow: 0 0 12px 0 rgba(0,0,0,.12);
+}
+
+.item__img{
+    height: 20rem;
+    width: 18.5rem;
+    border-radius: 5px;
+}
+
+.item__link{
+    text-decoration: none;
+
+}
+ 
+.item__name{
+font-size: 1.5rem;
+color: #000;
+font-family: sans-serif;
+font-weight: 500;
+margin-left: 1rem;
+}
+
+.item__prc{
+font-size: 1.8rem;
+color: #000;
+font-weight: 400;
+margin-left: 1rem;
+
+}
+
+.item__prcs{
+    font-size: 1.2rem;
+    color: #777;
+    margin-left: 1rem;
+    text-decoration-line: line-through;
+}
+
+.flash__items{
+    background-color: #e61601;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    width: 119rem;
+    margin-left: -.5rem;
+    margin-bottom: 1rem;
+     
+}
+
+.flash__selling{
+    max-width:  119.5rem; 
+    padding: 0px .5rem;
+    margin: 0px 8rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+ background-color: #fff;
+margin-bottom: 1rem;
+}
+.flash__text{ 
+background-color: #e61601;
+    height: 4rem;
+
+}
+
+.flash__msg{
+    color: #fff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    display: block;
+    width: 10rem;
+    font-weight: 400;
+    margin-right: -3rem;
+   
+}
+.flash__notify{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.flash__icon{
+height: 2rem;
+width: 2rem;
+fill: #fff;
+}
+.flash__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+// THE OTHER SECTION 
+
+.deals__items{
+    background-color: #ffc018;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    width: 119rem;
+    margin-left: -.5rem;
+    margin-bottom: 1rem;
+     
+
+
+}
+
+.deals__selling{
+    max-width:  119.5rem; 
+    padding: 0px .5rem;
+    margin: 0px 8rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+ background-color: #fff;
+margin-bottom: 1rem;
+}
+.deals__text{ 
+background-color: #ffc018;
+    height: 4rem;
+
+}
+
+.deals__msg{
+    color: #000;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    display: block;
+    width: 10rem;
+    font-weight: 400;
+    margin-right: -3rem;
+   
+}
+.deals__notify{
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.deals__icon{
+height: 2rem;
+width: 2rem;
+fill: #000;
+}
+.deals__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+// THE FASHION SECTION 
+
+.fashion__items{
+    background-color: #276076;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    width: 119rem;
+    margin-left: -.5rem;
+    margin-bottom: 1rem;
+     
+}
+
+.fashion__text{ 
+    background-color: #276076;
+        height: 4rem;
+    
+    }
+    
+    
+.fashion__msg{
+    color: #fff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    display: block;
+    width: 10rem;
+    font-weight: 400;
+    margin-right: -3rem;
+   
+}
+.fashion__notify{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.fashion__icon{
+height: 2rem;
+width: 2rem;
+fill: #fff;
+}
+.fashion__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+    // OTHER SECTION 
+
+    .fas__items{
+        background-color: #478114;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        width: 119rem;
+        margin-left: -.5rem;
+        margin-bottom: 1rem;
+         
+    }
+    
+    .fas__text{ 
+        background-color: #478114;
+            height: 4rem;
+        
+        }
+        
+
+        // chat display
+
+.chat{
+    width: 119.5rem;
+    margin: 0px 8rem;
+    margin-bottom: 1rem                                                                                                                                                                                                                      ;
+}    
+
+
+.chat__img{
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+width: 200rem;
+
+}
+
+
+.chat__msg{
+color: #fff;
+font-size: 2.5rem;
+font-family: sans-serif;
+font-weight: 600;
+}
+
+.chat__header{
+background-color:#276076;
+color: #fff;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 5rem;
+ 
+}
+
+.chat__pic{ 
+display: flex;
+
+}
+

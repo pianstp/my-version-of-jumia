@@ -1,0 +1,306 @@
+// JUMIA DESCRIPTION SECTION 
+.pima{
+
+    max-width:  119.5rem; 
+    padding: 0px .5rem;
+    margin: 0px 8rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+ background-color: #fff;
+margin-bottom: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.pima__box{
+    background-color: #fff;
+    color: #313133;
+    width: 116.5rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+a{
+    font-size: 1.15rem;
+    color: black;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1,h2,h3{
+    margin-bottom: .5rem;
+    color: #313133;
+}
+p{
+    color: #444;
+}
+
+
+// FOOTER
+
+
+.darkjumia__logo{
+    width: 18rem;
+    height: 3rem;
+
+}
+
+.footer{
+    margin-top: 5rem;
+    background-color: #000;
+}
+
+.footer__section{
+   margin-top: 6rem;
+  padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mail__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.mail__icon{
+    height: 2.5rem;
+    width: 2rem;
+    fill:#75757a4e;
+    
+}
+
+
+.mail {
+    border: 1px solid #fff;
+    height: 5rem;
+    width: 27.5rem;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  position: relative;
+
+    &__input {
+
+      font-size: 1.4rem;
+      background-color: #fff;
+      border: none;
+      padding-left: 6.5rem;
+  height: 5rem;
+  width: 28rem;
+  border-radius: 4px;
+// border: 1px solid #e07e1b;
+
+
+      &:focus{
+        outline: none;
+    }
+    
+  
+      &::-webkit-input-placeholder {
+        font-weight: 100;
+        font-size: 1.4rem;
+        margin-left: 1rem;
+
+      }
+    }
+
+
+    &__button {
+      border: none;
+      fill: #fff;
+      background-color: #fff;
+
+    //   fill: #75757a;
+    z-index: 1;
+    margin-right: 20rem;
+    position: absolute;
+    
+
+    }
+}
+ .mail :focus{
+    outline: 1px solid #e07e1b;
+    border: 1px solid #e07e1b;
+    fill: #e07e1b;
+}
+
+// .mail :focus >.mail__icon{
+//     fill: #e07e1b;
+// }
+// // 
+
+.btn-f{
+    text-transform: uppercase;
+    height: 5rem;
+    width: 10rem;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-left: 5px;
+    border-radius: 4px;
+
+}
+
+.btn-f:hover{
+cursor: pointer;
+border: 1px solid  #e07e1b;
+color: #e07e1b;
+
+
+}
+
+.app{
+    height: 3.5rem;
+    width: auto;
+    
+}
+
+.foote3,.foote2{
+    padding-top: 4rem;
+}
+
+.foote3__box{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8px;
+    color: #fff;
+    
+}
+
+.footesp{
+font-size: 1.25rem;
+text-transform: uppercase;
+color: #fff;
+}
+
+.footep{
+font-size: 1.2rem;
+color: #fff;
+
+}
+
+.star{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 4px;
+}
+
+.star__container{
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.star__box{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer2{
+    height: 38rem;
+    width: 134.8rem;
+    background-color: #535357; 
+    display:flex;
+    justify-content: space-around;
+    align-items: space-around;
+    padding-top: 2.4rem;
+}
+
+.pan {
+    font-size: 1.2rem;
+    color:#fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    display: inline-block;
+    
+}
+.pan-use{
+    padding-top: 1rem;
+}
+// : #f1f1f2; a color
+
+.shit__link{
+color: #f1f1f2;
+text-decoration: none;
+background-color: transparent;
+padding-bottom: 4px;
+font-size: 13px;
+}
+.shit__ul{
+list-style: none;
+
+}
+
+.shit__box-2{
+display: flex;
+column-gap: 4.5rem;
+
+}
+.shit__link:hover{
+text-decoration: underline;
+
+}
+
+.shit__box{
+
+    width: auto;
+    margin-bottom: 1rem;
+}
+
+.social__footer{
+    background-color: #535357; 
+    width: 134.8rem;
+    display: flex;
+    column-gap: 4.5rem;
+    padding-bottom: 3.5rem;
+}
+
+// social section
+
+.footer__icon {
+ height: 2.5rem;
+ width: 2rem;
+ fill:#fff;
+ margin-left: 1.25rem;
+ margin-right: 1rem;
+
+}
+
+.social__text{
+    text-transform: uppercase;
+    padding-bottom: 16px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.social__pic{
+    height: 2rem;
+    width: 4rem;
+border-radius: 1px;
+background-color: #535357;
+color: #535357;
+margin-left: 1.5rem;
+}
+
+.social__box{
+    margin-left: 7rem;
+
+}
+
+.social__box2{
+    margin-left: 15rem;
+}

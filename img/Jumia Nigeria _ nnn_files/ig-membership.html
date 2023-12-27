@@ -1,0 +1,38 @@
+
+<!-- saved from url=(0170)https://creativecdn.com/ig-membership?ntk=zcWas8NUXBRDKY-Jw8qzznyvROxTE6fOkAybn_gsdZE7xbozaFbngFugOaS01Awq6WT_duEdT3rwvhhhhtFEEV8cXcqdJtdy3Qt5WUKXVr6cDJ2EfhbFTybtobW0HUlk -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>
+<script>
+    if (navigator.joinAdInterestGroup) {
+        const addIgScript = document.createElement('script');
+        let src = null;
+        if (navigator.runAdAuction) {
+            if (window.FencedFrameConfig || 'src' in document.createElement('fencedframe')) {
+                src = 'https://creativecdn.com/ig-membership?ntk=wiEeif3md0AoUt3iGxdtBZCGG9eXs5nMwJdQSJDC6WyycTihQlJf67bne0OT7f2fVzSHszfADZaiupI0iGpqyTVv_dakfPIa4zedpPZVJ_PDw0pOg97KXWpKY5S1bhWu';
+            } else {
+                src = 'https://creativecdn.com/ig-membership?ntk=wiEeif3md0AoUt3iGxdtBZCGG9eXs5nMwJdQSJDC6WyycTihQlJf67bne0OT7f2fVzSHszfADZaiupI0iGpqyTVv_dakfPIa4zedpPZVJ_O_Zg7rE4v_a3lqHKpFA8p-';
+            }
+        } else {
+            if (window.FencedFrameConfig || 'src' in document.createElement('fencedframe')) {
+                src = 'https://creativecdn.com/ig-membership?ntk=wiEeif3md0AoUt3iGxdtBZCGG9eXs5nMwJdQSJDC6WyycTihQlJf67bne0OT7f2fVzSHszfADZaiupI0iGpqyTVv_dakfPIa4zedpPZVJ_O8Dn2iySk7g6KUJ8VDhrcp';
+            } else {
+                src = 'https://creativecdn.com/ig-membership?ntk=wiEeif3md0AoUt3iGxdtBZCGG9eXs5nMwJdQSJDC6WyycTihQlJf67bne0OT7f2fVzSHszfADZaiupI0iGpqyTVv_dakfPIa4zedpPZVJ_NKEKMLQf7Iu2md9y0Y9326';
+            }
+        }
+
+        if ('cookieDeprecationLabel' in navigator) {
+            navigator.cookieDeprecationLabel.getValue().then((label) => {
+                if (label) {
+                    src += "&lbl=" + label;
+                }
+
+                addIgScript.setAttribute('src', src);
+                document.body.appendChild(addIgScript);
+            });
+        } else {
+            addIgScript.setAttribute('src', src);
+            document.body.appendChild(addIgScript);
+        }
+    }
+</script>
+<script src="./ig-membership"></script>
+</body></html>
