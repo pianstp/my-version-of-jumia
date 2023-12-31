@@ -19,7 +19,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: #777;
-  background-image: url("../img/BG.png");
+  background-color: #eeeeee;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh; }
@@ -1149,6 +1149,26 @@ p {
   display: inline-block;
   background-color: transparent; }
 
+.brcbs {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  column-gap: .5rem;
+  margin-left: 8.4rem; }
+
+.cbs {
+  text-decoration: none;
+  color: #000; }
+
+.cbx {
+  text-decoration: none;
+  color: #5f5e5e; }
+
+.br_icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  fill: #212020; }
+
 .descript {
   display: flex;
   column-gap: 2.5rem;
@@ -1157,14 +1177,14 @@ p {
   margin: 0px 8rem;
   margin-top: 1.5rem;
   border-radius: 4px;
-  background-color: #fff;
   margin-bottom: 1rem; }
 
 .des-box-5 {
-  width: 36.5rem;
-  margin-top: 1rem;
+  width: 34.5rem;
+  height: 88rem;
   margin-bottom: 1rem;
-  background-color: orangered;
+  background-color: #fff;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.12);
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -1173,10 +1193,11 @@ p {
 .christmas__box {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   gap: 1rem;
-  background-color: green;
+  background-color: #fff;
   margin-top: 1rem;
-  width: 83rem;
+  width: 84rem;
   margin-bottom: 1rem;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
@@ -1184,20 +1205,258 @@ p {
   border-bottom-right-radius: 4px; }
 
 .des__box-1 {
-  width: 83rem; }
+  width: 84rem;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px; }
 
 .christmas__container {
-  background-color: #f68b1e;
-  width: 20rem; }
+  background-color: #fff;
+  width: 20rem;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px; }
+
+.name {
+  line-height: 1.4;
+  font-size: 10px;
+  text-overflow: ellipsis;
+  color: #6f6f6f;
+  margin-left: 1rem;
+  margin-right: 1rem; }
+
+.old {
+  text-decoration: line-through;
+  color: #777;
+  font-size: 14px;
+  margin-left: 1rem; }
+
+.prc {
+  font-size: 15px;
+  color: #333;
+  font-weight: 400;
+  margin-left: 1rem; }
+
+.pfi {
+  fill: #000;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1.5rem;
+  padding-top: .5rem; }
+
+.pf-t {
+  fill: #000;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1.5rem; }
+
+.christmas__container:hover {
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.12);
+  transform: scale(1.01); }
+
+.christmas__container:hover .des-btn {
+  visibility: visible; }
 
 .christmas__img {
-  height: 15rem;
-  width: 18rem; }
+  height: 18rem;
+  width: 20rem; }
 
 .christmas__links {
-  background-color: red; }
+  background-color: white;
+  text-decoration: none; }
 
 .christmas__card {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.des-con {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.des-btn {
+  visibility: hidden;
+  background-color: #f68b1e;
+  color: #fff;
+  padding: 1rem;
+  width: 15rem;
+  height: 3.5rem;
+  text-transform: uppercase;
+  border: #f68b1e;
+  border-radius: 4px;
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+
+.light-drop a {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  color: #706f6f; }
+
+.light-drop {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  width: 20rem;
+  height: 26rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 4px; }
+
+.light-drop a:hover {
+  background-color: #ddd;
+  color: #000; }
+
+/* Show the dropdown menu on hover */
+.light-con:hover .light-drop {
+  display: block; }
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  color: #f68b1e; }
+
+.light-con {
+  position: relative;
+  display: inline-block; }
+
+.light-sect {
+  width: 84rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #bdbdbd; }
+
+.light-text:hover .pfu {
+  color: #f68b1e; }
+
+.light-text:hover .pfx {
+  color: #f68b1e; }
+
+.light-text:hover .pfi {
+  fill: #f68b1e; }
+
+.pfg {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-left: 1rem; }
+
+.pfu {
+  font-size: 1.8rem;
+  color: #777; }
+
+.pfp {
+  font-size: 1.2rem;
+  color: #777;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem; }
+
+.pfx {
+  font-size: 1.8rem;
+  color: #000; }
+
+.ship-h {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem; }
+
+.forum-box {
+  border-bottom: 1px solid #bdbdbd; }
+
+.forum-box- {
+  border-bottom: 1px solid #bdbdbd; }
+
+.forum-box-2 {
+  border-top: 1px solid #bdbdbd; }
+
+.forum-box-3 {
+  border-top: 1px solid #bdbdbd;
+  border-bottom: 1px solid #bdbdbd; }
+
+.lox {
+  font-size: 1.5rem;
+  color: #333; }
+
+.pox {
+  background-color: blue;
+  color: #fff;
+  border-radius: 4px;
+  padding-right: 5px; }
+
+.cox {
+  margin-left: 2.8rem;
+  height: 1.7rem;
+  width: 2.5rem;
+  border: 2px solid #6f6f6f; }
+
+.gox {
+  padding-left: 5px;
+  margin-bottom: 1.5rem; }
+
+.kox {
+  margin-bottom: 1.5rem; }
+
+.card-5 {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  margin-bottom: 1.2rem; }
+
+.svg-g {
+  fill: #eeeeee;
+  stroke: #eeeeee;
+  height: 2rem;
+  width: 2rem; }
+
+.svg-s {
+  fill: #ffa44a;
+  stroke: #fff;
+  height: 2rem;
+  width: 2rem; }
+
+.j-bet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #bdbdbd; }
+
+.pfi-w {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.pi {
+  margin-top: .5rem;
+  margin-left: 3rem;
+  border: none;
+  position: absolute;
+  background-color: transparent; }
+
+.pi-w {
+  margin-bottom: 1rem;
+  position: relative;
+  border: 1px solid #777;
+  border-radius: 4px;
+  height: 2.5rem;
+  width: 10rem; }
+
+.btn-apply {
+  border: none;
+  color: #ffa44a;
+  background-color: #fff;
+  font-size: 2rem;
+  margin-right: 2.5rem; }
