@@ -1233,7 +1233,7 @@ p {
   text-decoration: line-through;
   color: #777;
   font-size: 14px;
-  margin-left: 1rem; }
+  margin-left: 4rem; }
 
 .prc {
   font-size: 15px;
@@ -1682,11 +1682,10 @@ p {
 .cart-br {
   height: 3rem;
   width: 3rem;
-  background-color: #f68d237c;
+  background-color: #f68d23b3;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   border-radius: 4px; }
 
 .cart-svg {
